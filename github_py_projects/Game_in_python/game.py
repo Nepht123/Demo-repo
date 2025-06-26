@@ -30,4 +30,14 @@ while running:
         if events.type == pg.QUIT:#If the event that as happened is to close the game window, this programe will stop running 
             running=False
 
-print("Hello")
+    """
+    Anything we want to appear conyinuously in our game window 
+    needs to be within this while loop i.e. images/texts/controls
+    """
+    screen.fill((240,230,250))#the values inside are RGB values (red, blue, green) {look up what the rgb values are for colors}
+    #Lavender
+
+    '''We neeed to use the update function whenever we add something to our game screen '''
+    pg.display.update()
+
+
