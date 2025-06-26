@@ -20,16 +20,14 @@ running =True
 pg.display.set_caption("Alien terrorists")
 
 #   This is where I will store the Image
-
-
 icon=pg.image.load('C:\\Users\\mwamb\\OneDrive\\Desktop\\Git  Desktop demo\\Demo-repo\\github_py_projects\\Game_in_python\\Alien terorist.png')
 pg.display.set_icon(icon)
 
 
-print("Hello")
 #This is the game loop, this loop will ensure that the program continues rubbibg until the window is closed 
 while running:
     for events in pg.event.get():#This will go through every single possible event in the pygame library 
         if events.type == pg.QUIT:#If the event that as happened is to close the game window, this programe will stop running 
             running=False
 
+print("Hello")
